@@ -9,7 +9,7 @@ channels:
   - bioconda
   - conda-forge
 dependencies:
-  - jupyterlab=2
+  - jupyterlab=3
   - nbresuse
   - nodejs
   - libgomp
