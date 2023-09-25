@@ -1,6 +1,7 @@
 # from name: plasmabio-template-r
+# update 2023 avec fixation version jupyter-archive & élminatio du variable inspector
 
-name: M1MEG-UE1-TP5-R
+name: M1MEG-UE1-TP5-7-R
 # channels priority
 # see https://bioconda.github.io/
 # conda-forge has highest prioriy
@@ -20,7 +21,7 @@ dependencies:
   - pip
   # Jupyter archive
   # https://github.com/jupyterlab-contrib/jupyter-archive
-  - jupyter-archive
+  - jupyter-archive=3.3.4
   # R environment
   - r-irkernel
   - r-base>=4
@@ -28,8 +29,6 @@ dependencies:
   # JupyterLab Variable inspector
   # https://github.com/lckr/jupyterlab-variableInspector
   - r-repr
-  - pip:
-    - lckr-jupyterlab-variableinspector
   - nbresuse
   - libgomp
   # R packages
