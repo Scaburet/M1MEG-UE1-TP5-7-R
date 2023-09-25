@@ -33,6 +33,5 @@ R -e "BiocManager::install('simpleaffy', update=FALSE)"
 R -e "BiocManager::install('genefilter', update=FALSE)"
 R -e "BiocManager::install('gcrma', update=FALSE)"
 R -e "BiocManager::install('RColorBrewer', update=FALSE)"
-R -e "BiocManager::install('gplots', update=FALSE)"
 R -e "BiocManager::install('dendextend', update=FALSE)"
 
