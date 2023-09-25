@@ -42,4 +42,6 @@ dependencies:
   - r-writexl
   - r-readxl
   - r-rcolorbrewer
+  - pip:
+    - matplotlib
   
