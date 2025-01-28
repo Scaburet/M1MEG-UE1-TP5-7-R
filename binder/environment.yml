@@ -6,7 +6,8 @@ name: M1MEG-UE1-TP5-7-R
 # see https://bioconda.github.io/
 # conda-forge has highest prioriy
 channels:
-  - defaults
+# defaults changé en nodefaults pour construire l'envsur Mydoker de Saclay, janvier 2025
+  - nodefaults
   - bioconda
   - conda-forge
 dependencies:
